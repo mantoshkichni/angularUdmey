@@ -11,10 +11,11 @@ import { FormsModule, NgForm } from '@angular/forms';
 })
 
 export class TimerComponent {
-submitForm(event:Event) {
-  console.log(event)
+onSubmit() {
+  console.log("Submitted");
 throw new Error('Method not implemented.');
 }
+
 
   name:string="";
   subject:string="";
